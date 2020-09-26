@@ -1,3 +1,4 @@
+# Client notification about server state changes
 import json
 import asyncio
 

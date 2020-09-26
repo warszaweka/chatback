@@ -1,3 +1,4 @@
+# Server side protocol specification
 import state
 
 def updt_new_node(node):

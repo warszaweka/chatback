@@ -1,6 +1,7 @@
 import uuid
 import datetime
 
+# User
 class Node:
     def __init__(self, ws, name):
         self.ws = ws
@@ -14,6 +15,7 @@ class Node:
     def __eq__(self, other):
         return self.id == other.id
 
+# Chat
 class Link:
     def __init__(self, node, name, nodes):
         self.node = node
@@ -27,6 +29,7 @@ class Link:
     def __eq__(self, other):
         return self.id == other.id
 
+#Message
 class Message:
     def __init__(self, node, content, link):
         self.node = node

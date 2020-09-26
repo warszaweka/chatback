@@ -1,3 +1,4 @@
+# Server state changes
 import classes
 
 nodes = {}
